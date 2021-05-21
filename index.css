@@ -1,0 +1,93 @@
+body {
+  /* background-color: #333; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  background-color: #3f51b5;
+  color: #eee;
+  text-align: center;
+  padding: 0.7em;
+
+  box-shadow: 0 0.25em 0.5em 0 #0003;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-content {
+  /* background-color: #eee; */
+  width: 100%;
+  height: 100%;
+  flex: 3;
+  padding: 1em;
+}
+.table-content {
+  /* background-color: #3f51b5; */
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  padding: 1em;
+}
+.custom-card {
+  margin: 0.8em;
+  box-shadow: 0 0.25em 0.5em 0 #0003;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  /* transition: 0.3s; */
+}
+
+.custom-card:hover {
+  color: inherit;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  text-align: center;
+  width: 100%;
+}
+
+.vertical-line {
+  border-left: 0.25em solid gray;
+}
+
+.convert-small {
+  width: max-content;
+  height: max-content;
+}
+
+.search-container {
+  margin-bottom: 1.5em;
+}
+
+.convert-big {
+  border: 1px solid #3f51b5;
+}
+
+.custom-header {
+  background-color: #3f51b5;
+  color: #eee;
+}
+
+.center-align {
+  text-align: center;
+}
+.selected-bg {
+  background-color: chocolate;
+}
+
+#modal-close-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}

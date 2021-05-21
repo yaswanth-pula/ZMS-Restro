@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>ZMS Restaurant</title>
+  </head>
+  <body>
+    <nav>
+      <h1>ZMS Restaurant</h1>
+    </nav>
+    <div class="container-fluid" id="root">
+      <div class="main-content">
+        <div class="table-content">
+          <h2>Table</h2>
+          <div class="col-8 search-container">
+            <input
+              id="table-list-search"
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="Search For Table..."
+            />
+          </div>
+          <div id="table-container">
+            <!-- Table content -->
+          </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="menu-content">
+          <h2>Menu</h2>
+          <div class="col-8 search-container">
+            <input
+              id="menu-item-search"
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="Search For item, course..."
+            />
+          </div>
+          <div id="item-container">
+            <!-- Menu Items-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="table-model"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <!-- Modal Contents-->
+    </div>
+
+    <script type="module" src="./menu-content.js"></script>
+    <script type="module" src="./table-content.js"></script>
+  </body>
+</html>

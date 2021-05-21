@@ -1,0 +1,58 @@
+{
+  "menuItems": [
+    {
+      "id": 101,
+      "name": "Nizam Mutton Biryani",
+      "price": 405.0,
+      "type": "Main Course"
+    },
+    {
+      "id": 102,
+      "name": "Chicken Biryani",
+      "price": 305.0,
+      "type": "Main Course"
+    },
+    {
+      "id": 103,
+      "name": "Panner Tikka",
+      "price": 180.0,
+      "type": "Starter"
+    },
+    {
+      "id": 104,
+      "name": "Chicken Garlic Kebab",
+      "price": 320.0,
+      "type": "Starter"
+    },
+    {
+      "id": 105,
+      "name": "Coke -750ml",
+      "price": 40.0,
+      "type": "Beverages"
+    },
+    {
+      "id": 106,
+      "name": "Sprite -750ml",
+      "price": 38.0,
+      "type": "Beverages"
+    },
+    {
+      "id": 108,
+      "name": "chicken-soup",
+      "price": 150.0,
+      "type": "Starter"
+    },
+    {
+      "id": 109,
+      "name": "Khubani ka Meetha",
+      "price": 169.0,
+      "type": "Dessert"
+    },
+    {
+      "id": 110,
+      "name": "Gulab Jamun",
+      "price": 119.0,
+      "type": "Dessert"
+    }
+  ]
+}
